@@ -33,11 +33,11 @@ Optimized Model:
 - Accuracy: 0.7339
 - Loss: 0.5963
 
-The extra hidden layer allows the netword to capture more abstract patterns, improving expressiveness while remaining computationally reasonable. Using Leaky ReLU in the first layer helps ensure all neurons contribute to learning. Neurons continue to reduce by layer to keep overfitting risk reduced. Epochs were increased by 50% to provide more exposure to the training data.
+The extra hidden layer allows the network to capture more abstract patterns, improving expressiveness while remaining computationally reasonable. Using Leaky ReLU in the first layer helps ensure all neurons contribute to learning. Neurons continue to reduce by layer to keep overfitting risk reduced. Epochs were increased by 50% to provide more exposure to the training data.
 
 Additionally, the optimized model slightly altered the binning categories, creating more bins in the Application Type and Classification categories in an effort to more particularly represent different applicant categories.
 
-Overall, after several different iterations of the optimized model that lead to this final product, the optimized model showed only a marginal increase in accuracy, and did not reach the target accuracy of 75%. Many different combinations of nodal and neuronal numbrs, data category and feature alterations, activation types, and epoch volume were used to try to reach this mark, with challenges get above even 74%.
+Overall, after several different iterations of the optimized model that lead to this final product, the optimized model showed only a marginal increase in accuracy, and did not reach the target accuracy of 75%. Many different combinations of nodal and neuronal numbers, data category and feature alterations, activation types, and epoch volume were used to try to reach this mark, with challenges to get above even 74%.
 
 ## Summary
 
